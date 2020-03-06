@@ -8,7 +8,7 @@ git clone https://github.com/NayanKhedkar/Test_git.git
 
 git branch -a
 
-# add all change to commit
+# add all change to stage
 
 git add .
  
@@ -17,6 +17,7 @@ git add .
 git add filename_to_add
 
 # or directly commit
+
 git commit -a
 
 # check modified files
@@ -25,6 +26,5 @@ git status
 # commit current changes 
 
 git commit -m "message to commit"
-
 
 
