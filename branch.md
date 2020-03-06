@@ -15,5 +15,10 @@
 
 ```git branch -d branch_name```
 
+## Push changes to remote branch 
+``` git push --set-upstream origin branch_name```
 
+Or
+
+``` git push -u origin branch_name ```
 
