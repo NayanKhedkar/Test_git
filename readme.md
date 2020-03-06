@@ -92,8 +92,21 @@ the undo the commit
 ```git reset --soft/--hard <commit hash> ```
 
 then push to remote repo
+## Save change before switch the branch if not want to committed local repo (in stack)
+
+``` git stash save "changes on in branch" ```
 
 
-### rollback last commit
+## Unstash the changes to work continue in branch 
 
-```git revert HEAD```
+```git stash pop```
+
+
+
+### stack several changes and check the current stash stack using:
+
+``` git stash list ```
+
+### add a specific stash by using
+
+``` git stash pop "stash@{1}" ```
