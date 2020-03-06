@@ -27,4 +27,7 @@ git status
 
 git commit -m "message to commit"
 
+# push changes to remote repository
+
+git push origin master
 
