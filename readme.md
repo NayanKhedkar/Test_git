@@ -57,7 +57,3 @@ Or
 ``` git push -u origin branch_name ```
 
  ```-u``` to upstream if branch is not on remote then create it. 
-
-### Updates all the remote tracking branches in local repository
-
-``` git fetch ```
