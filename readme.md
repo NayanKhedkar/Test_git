@@ -92,6 +92,7 @@ the undo the commit
 ```git reset --soft/--hard <commit hash> ```
 
 then push to remote repo
+
 ## Save change before switch the branch if not want to committed local repo (in stack)
 
 ``` git stash save "changes on in branch" ```
