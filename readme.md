@@ -61,3 +61,24 @@ Or
 ### Updates all the remote tracking branches in local repository
 
 ``` git fetch ```
+
+### Integrating changes from one branch onto another
+#### By rebase:
+
+```git checkout branch_name```
+
+``` git rebase master```
+
+This moves the entire <branch_name> branch to begin on the tip of the master branch
+
+#### By Merge:
+
+The easiest option is to merge the master branch into the feature branch using something like the following:
+
+``` git checkout to_branch_name ```
+
+``` git merge from_branch_name ```
+
+Or, this to a one-liner:
+
+```git merge to_repo_name from_repo_name```
