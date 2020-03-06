@@ -19,6 +19,10 @@
 
 ``` git push --set-upstream origin branch_name```
 
+Or
+
+``` git push -u origin branch_name ```
+
 
 ## Pull changes from remote branch 
 
