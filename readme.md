@@ -1,33 +1,59 @@
 Hey this the Test command.
 
-# pull fresh repo from git hub
+## Connect to git repository
 
-git clone https://github.com/NayanKhedkar/Test_git.git
+```git remote add origin git@github.com:NayanKhedkar/Test_git.git```
 
-# check all branches
+## Pull fresh repo from git hub
 
-git branch -a
+```git clone https://github.com/NayanKhedkar/Test_git.git```
 
-# add all change to stage
 
-git add .
+## Pull changes from remote to local repository
+
+```git pull ```
+
+Or
+
+``` git pull origin master```
+
+Or
+
+``` git pull origin branch_name ```
  
-# or
+## Check all branches
 
-git add filename_to_add
+```git branch -a```
 
-# or directly commit
+## Add all change to stage
 
-git commit -a
+```git add .```
+ 
+Or
 
-# check modified files
-git status
+```git add filename_to_add```
 
-# commit current changes 
+## Or directly commit
 
-git commit -m "message to commit"
+```git commit -a```
 
-# push changes to remote repository
+## Check modified files
+```git status```
 
-git push origin master
+## Commit current changes 
 
+```git commit -m "message to commit"```
+
+## Push changes to remote repository
+
+```git push ```
+
+Or
+
+``` git push origin master```
+
+Or
+
+``` git push -u origin branch_name ```
+
+ ```-u``` to upstream if branch is not on remote then create it. 
