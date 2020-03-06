@@ -82,3 +82,18 @@ The easiest option is to merge the master branch into the feature branch using s
 Or, this to a one-liner:
 
 ```git merge to_repo_name from_repo_name```
+
+## Undo the last commit
+
+```git log --oneline ```
+
+the undo the commit
+
+```git reset --soft/--hard <commit hash> ```
+
+then push to remote repo
+
+
+### rollback last commit
+
+```git revert HEAD```
